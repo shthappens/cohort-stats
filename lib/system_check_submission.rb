@@ -3,7 +3,7 @@ class SystemCheckSubmission
 
   attr_reader :solution, :student
 
-  def initialize(solution = "require 'yaml'", student)
+  def initialize(solution, student)
     @solution = solution
     @student = student
   end
